@@ -1,0 +1,100 @@
+
+/* Step 2 - Overriding hover effect from lab04.css */
+aside:hover {
+    display: block;
+}
+
+/* Menu items displayed horizontally */
+.menu {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/* Step 3 & Step 4 - Box Model & Positioning for Aside */
+aside {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-image: url("images/fade.jpg");
+    background-repeat: repeat-x;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* Step 3 - Box Model for Header */
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Step 3 & Step 4 - Footer styling and clear */
+footer {
+    border-top: 4px double darkgray;
+    clear: both;
+}
+
+/* Step 4 - Floating sections & table positioning */
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+
+#tables {
+    float: right;
+}
+
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+/* Equal column widths and centered text for sections */
+#lists, #tables, #hyperlinks, #images {
+    width: 50%;
+    text-align: center;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+article {
+    min-width: 30em;
+}
+
+/* Step 5 - Footer paragraphs layout and pseudo-classes */
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
